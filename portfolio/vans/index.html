@@ -1,0 +1,1440 @@
+<!doctype html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>[L] Vans</title>
+  <meta name="description" content="...">
+  <meta name="keywords" content="...">
+
+  <meta name="theme-color" content="#9c2129">
+
+  <link rel="icon" type="image/png" href="assets/favicon/favicon.png" sizes="16x16">
+  <link rel="icon" type="image/png" href="assets/favicon/favicon-32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="assets/favicon/favicon-64.png" sizes="64x64">
+
+  <link rel="apple-touch-icon" type="image/png" sizes="152x152" href="assets/favicon/favicon-apple-152.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="167x167" href="assets/favicon/favicon-apple-167.png">
+  <link rel="apple-touch-icon" type="image/png" sizes="180x180" href="assets/favicon/favicon-apple-180.png">
+
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/favicon/favicon-apple-192.png">
+
+
+
+  <link rel="preload" href="assets/fonts/roboto/roboto-regular.woff2" as="font" type="font/woff2" crossorigin="anonymous">
+
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+
+<body>
+
+  <script src="scripts/vendor/vue.2.6.10.js"></script>
+  <script src="scripts/vendor/jquery.min.3.4.1.js"></script>
+  <script src="scripts/vendor/slick.min.js"></script>
+
+  <script src="scripts/api.js"></script>
+  <script src="scripts/bundle.js"></script>
+
+  <script src="scripts/frontend-debug-menu.js"></script>
+
+  <!--[if lte IE 9]>
+<div class="b-browser-update">
+  <h3>Ваш браузер устарел и&nbsp;не&nbsp;может отобразить этот сайт.</h3>
+  <p>
+    Современный браузер повысит скорость, безопасность и&nbsp;качество работы в&nbsp;интернете.
+  </p>
+  <p> Попробуйте <a href="https://www.google.ru/chrome/" target="_blank">Google Chrome</a>.
+  </p>
+</div>
+<![endif]-->
+
+
+
+  <header class="header">
+
+    <div class="container" style="position: relative">
+
+      <div class="js-search-result" style="top: 101px; right: 0px; left: auto; background-color: white">
+        <div class="title-search-result" style="display: none; position: absolute; top: 101px; left: 1154px; width: 170px;">
+          <div class="bx_searche">
+            <div class="bx_item_block">
+              <div class="bx_img_element">
+                <div class="bx_image" style="background-image: url('assets/img/bestsellers/bestseller-1.jpg')"></div>
+              </div>
+              <div class="bx_item_element">
+                <a href="item.html"><b>Кеды</b> Varix WC</a>
+                <p>7 990 руб.</p>
+              </div>
+              <div style="clear:both;"></div>
+            </div>
+            <div class="bx_item_block">
+              <div class="bx_img_element">
+                <div class="bx_image" style="background-image: url('assets/img/bestsellers/bestseller-1.jpg')"></div>
+              </div>
+              <div class="bx_item_element">
+                <a href="item.html"><b>Кеды</b> Varix WC</a>
+                <p>7 990 руб.</p>
+              </div>
+              <div style="clear:both;"></div>
+            </div>
+            <div class="bx_item_block">
+              <div class="bx_img_element">
+                <div class="bx_image" style="background-image: url('assets/img/bestsellers/bestseller-1.jpg')"></div>
+              </div>
+              <div class="bx_item_element">
+                <a href="item.html"><b>Кеды</b> Varix WC</a>
+                <p>7 990 руб.</p>
+              </div>
+              <div style="clear:both;"></div>
+            </div>
+            <div class="bx_item_block">
+              <div class="bx_img_element">
+                <div class="bx_image" style="background-image: url('assets/img/bestsellers/bestseller-1.jpg')"></div>
+              </div>
+              <div class="bx_item_element">
+                <a href="item.html"><b>Кеды</b> Varix WC</a>
+                <p>7 990 руб.</p>
+              </div>
+              <div style="clear:both;"></div>
+            </div>
+            <div class="bx_item_block all_result">
+              <div class="bx_img_element"></div>
+              <div class="bx_item_element">
+                <span class="all_result_title"><a href="catalog.html">Все результаты</a></span>
+              </div>
+              <div style="clear:both;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="header__top js-main-menu">
+        <a href="#" title="Vans.ru" class="header__logo">
+          <img src="assets/img/vans-logo.svg" alt="vans.ru">
+        </a>
+        <nav class="header__nav header-nav">
+          <div class="header-nav__wrapper mod-only-sm">
+            <a href="#" class="header-nav__toggle header-nav__menu-toggle js-toggle-menu" title="Открыть меню">
+              <span class="icon-hamburger"></span>
+            </a>
+            <a href="#" class="header-nav__toggle header-nav__basket-toggle" title="Открыть корзину">
+              <span class="icon-basket"></span>
+            </a>
+            <a href="#" class="header-nav__toggle header-nav__map-toggle" title="Показать магазины">
+              <span class="icon-map-pin"></span>
+            </a>
+            <a href="#" class="header-nav__toggle header-nav__search-toggle js-toggle-search" title="Открыть поиск">
+              <span class="icon-search"></span>
+            </a>
+          </div>
+          <div class="header-nav__wrapper">
+            <div class="top-nav mod-no-sm">
+              <ul class="top-nav__list">
+                <li class="top-nav__item dropdown__container">
+                  <a class="main-nav__head-link js-nav-item-link mod-user-link dropdown" href="#">
+                    <span class="main-nav__head-link-icon">
+                      <span class="icon-flag"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
+                    </span>
+                    &nbsp;
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li class=""><a class="lang lang-de" href="index.html">DEUTSCHLAND</a></li>
+                    <li class=""><a class="lang lang-es" href="index.html">ESPAÑA</a></li>
+                    <li class=""><a class="lang lang-fr" href="index.html">FRANCE</a></li>
+                    <li class=""><a class="lang lang-ie" href="index.html">IRELAND</a></li>
+                    <li class=""><a class="lang lang-it" href="index.html">ITALY</a></li>
+                    <li class=""><a class="lang lang-nl" href="index.html">NETHERLANDS</a></li>
+                    <li class=""><a class="lang lang-at" href="index.html">ÖSTERREICH</a></li>
+                    <li class=""><a class="lang lang-se" href="index.html">SWEDEN</a></li>
+                    <li class=""><a class="lang lang-uk" href="index.html">UNITED KINGDOM</a></li>
+                    <li class=""><a class="lang lang-eu" href="index.html">REST OF EUROPE</a></li>
+                    <li class=""><a class="lang lang-us" href="index.html">USA</a></li>
+                  </ul>
+                </li>
+                <li class="top-nav__item ">
+                  <a class="main-nav__head-link js-nav-item-link mod-user-link " href="#">
+                    <span class="main-nav__head-link-icon">
+                      <span class="icon-people"></span>
+                    </span>
+                    Вход / Регистрация
+                  </a>
+                </li>
+                <li class="top-nav__item ">
+                  <a class="main-nav__head-link js-nav-item-link mod-user-link " href="#">
+                    <span class="main-nav__head-link-icon">
+                      <span class="icon-question"></span>
+                    </span>
+                    Помощь
+                  </a>
+                </li>
+                <li class="top-nav__item ">
+                  <a class="main-nav__head-link js-nav-item-link mod-user-link " href="#">
+                    <span class="main-nav__head-link-icon">
+                      <span class="icon-map-pin"></span>
+                    </span>
+                    Где купить
+                  </a>
+                </li>
+                <li class="top-nav__item mod-basket">
+                  <a class="main-nav__head-link js-nav-item-link mod-user-link" href="#">
+                    <span class="main-nav__head-link-icon">
+                      <span class="icon-basket"></span>
+                    </span>
+                    Корзина (3)
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="header-nav__main-nav main-nav js-nav-container is-hide">
+              <div class="main-nav__overlay js-nav-overlay"></div>
+              <ul class="main-nav__list js-nav-main-list">
+                <li class="main-nav__item">
+                  <a class="main-nav__head-link js-nav-item-link mod-sublist" href="#">Мужчины <span class="main-nav__icon-slash">/</span></a>
+                  <span class="main-nav__dropdown js-nav-item-submenu">
+                    <span class="main-nav__dropdown-wrapper">
+                      <ul class="main-nav__submenu-list js-nav-item-sublist">
+                        <li class="main-nav__submenu-item mod-only-sm mod-back js-back">Назад</li>
+                        <li class="main-nav__submenu-item mod-only-sm mod-label">Мужчины</li>
+                        <li class="main-nav__submenu-item mod-only-sm"><a href="#">Смотреть всё</a></li>
+                        <li class="main-nav__submenu-item">
+                          <a class="main-nav__submenu-link js-nav-sublist-link mod-sublist" href="#">В тренде</a>
+                          <ul class="main-nav__submenu-list mod-2 js-sublist-submenu">
+                            <li class="main-nav__submenu-item mod-back mod-only-sm js-back">Назад</li>
+                            <li class="main-nav__submenu-item mod-only-sm mod-label">В тренде</li>
+                            <li class="main-nav__submenu-item mod-uppercase">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Новинки</a>
+                            </li>
+                            <li class="main-nav__submenu-item mod-uppercase">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Sale</a>
+                            </li>
+                            <li class="main-nav__submenu-item mod-uppercase">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Ultrarange</a>
+                            </li>
+                            <li class="main-nav__submenu-item mod-uppercase">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Pro Skate</a>
+                            </li>
+                            <li class="main-nav__submenu-item mod-uppercase">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Классика</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="main-nav__submenu-item">
+                          <a class="main-nav__submenu-link js-nav-sublist-link mod-sublist" href="#">Обувь</a>
+                          <ul class="main-nav__submenu-list mod-2 js-sublist-submenu">
+                            <li class="main-nav__submenu-item mod-back mod-only-sm js-back">Назад</li>
+                            <li class="main-nav__submenu-item mod-only-sm mod-label">Обувь</li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Высокие кеды</a>
+                            </li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Кеды</a>
+                            </li>
+                            <li class="main-nav__submenu-item mod-uppercase mod-no-sm">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Посмотреть все</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="main-nav__submenu-item">
+                          <a class="main-nav__submenu-link js-nav-sublist-link mod-sublist" href="#">Одежда</a>
+                          <ul class="main-nav__submenu-list mod-2 js-sublist-submenu">
+                            <li class="main-nav__submenu-item mod-back mod-only-sm js-back">Назад</li>
+                            <li class="main-nav__submenu-item mod-only-sm mod-label">Одежда</li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Брюки</a>
+                            </li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Джинсы</a>
+                            </li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Куртки</a>
+                            </li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Рубашки</a>
+                            </li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Толстовки</a>
+                            </li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Футболки</a>
+                            </li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Шорты</a>
+                            </li>
+                            <li class="main-nav__submenu-item mod-uppercase mod-no-sm">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Посмотреть все</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="main-nav__submenu-item">
+                          <a class="main-nav__submenu-link js-nav-sublist-link mod-sublist" href="#">Аксессуары</a>
+                          <ul class="main-nav__submenu-list mod-2 js-sublist-submenu">
+                            <li class="main-nav__submenu-item mod-back mod-only-sm js-back">Назад</li>
+                            <li class="main-nav__submenu-item mod-only-sm mod-label">Аксессуары</li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Бумажники</a>
+                            </li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Головные уборы</a>
+                            </li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Носки</a>
+                            </li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Ремни</a>
+                            </li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Солнцезащитные очки</a>
+                            </li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Сумки и рюкзаки</a>
+                            </li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Шнурки</a>
+                            </li>
+                            <li class="main-nav__submenu-item mod-uppercase mod-no-sm">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Посмотреть все</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <span class="main-nav__styles mod-no-sm">
+                        <h3 class="main-nav__styles-title"><span>Выбери свой стиль</span></h3>
+                        <ul class="main-nav__styles-list" title="Выбери свой стиль">
+                          <li class="main-nav__styles-item">
+                            <a href="">
+                              <img width="164" height="149" src="assets/img/main-menu/authentic-1.png" alt="authentic">
+                            </a>
+                          </li>
+                          <li class="main-nav__styles-item">
+                            <a href="">
+                              <img width="164" height="149" src="assets/img/main-menu/era.png" alt="era">
+                            </a>
+                          </li>
+                          <li class="main-nav__styles-item">
+                            <a href="">
+                              <img width="164" height="149" src="assets/img/main-menu/olskool.png" alt="old school">
+                            </a>
+                          </li>
+                          <li class="main-nav__styles-item">
+                            <a href="">
+                              <img width="164" height="149" src="assets/img/main-menu/sk8hi.png" alt="sk8 hi">
+                            </a>
+                          </li>
+                          <li class="main-nav__styles-item">
+                            <a href="">
+                              <img width="164" height="149" src="assets/img/main-menu/slipon.png" alt="slip-on">
+                            </a>
+                          </li>
+                        </ul>
+                      </span>
+                    </span>
+                  </span>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__head-link js-nav-item-link mod-sublist" href="#women">Женщины <span class="main-nav__icon-slash">/</span></a>
+                  <span class="main-nav__dropdown js-nav-item-submenu">
+                    <span class="main-nav__dropdown-wrapper">
+                      <ul class="main-nav__submenu-list js-nav-item-sublist">
+                        <li class="main-nav__submenu-item mod-only-sm mod-back js-back">Назад</li>
+                        <li class="main-nav__submenu-item mod-only-sm mod-label">Женщины</li>
+                        <li class="main-nav__submenu-item mod-only-sm"><a href="#">Смотреть всё</a></li>
+                        <li class="main-nav__submenu-item">
+                          <a class="main-nav__submenu-link js-nav-sublist-link mod-sublist" href="#">В тренде</a>
+                          <ul class="main-nav__submenu-list mod-2 js-sublist-submenu">
+                            <li class="main-nav__submenu-item mod-back mod-only-sm js-back">Назад</li>
+                            <li class="main-nav__submenu-item mod-only-sm mod-label">В тренде</li>
+                            <li class="main-nav__submenu-item mod-uppercase mod-no-sm">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Красные</a>
+                            </li>
+                            <li class="main-nav__submenu-item mod-uppercase mod-no-sm">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Синие</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="main-nav__submenu-item">
+                          <a class="main-nav__submenu-link js-nav-sublist-link mod-sublist" href="#">Обувь</a>
+                          <ul class="main-nav__submenu-list mod-2 js-sublist-submenu">
+                            <li class="main-nav__submenu-item mod-back mod-only-sm js-back">Назад</li>
+                            <li class="main-nav__submenu-item mod-only-sm mod-label">Обувь</li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Обувь</a>
+                            </li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Обувь</a>
+                            </li>
+                            <li class="main-nav__submenu-item mod-uppercase mod-no-sm">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Посмотреть все</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="main-nav__submenu-item">
+                          <a class="main-nav__submenu-link js-nav-sublist-link mod-sublist" href="#">Одежда</a>
+                          <ul class="main-nav__submenu-list mod-2 js-sublist-submenu">
+                            <li class="main-nav__submenu-item mod-back mod-only-sm js-back">Назад</li>
+                            <li class="main-nav__submenu-item mod-only-sm mod-label">Одежда</li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Обувь</a>
+                            </li>
+                            <li class="main-nav__submenu-item mod-uppercase mod-no-sm">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Посмотреть все</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="main-nav__submenu-item">
+                          <a class="main-nav__submenu-link js-nav-sublist-link mod-sublist" href="#">Аксессуары</a>
+                          <ul class="main-nav__submenu-list mod-2 js-sublist-submenu">
+                            <li class="main-nav__submenu-item mod-back mod-only-sm js-back">Назад</li>
+                            <li class="main-nav__submenu-item mod-only-sm mod-label">Аксессуары</li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Обувь</a>
+                            </li>
+                            <li class="main-nav__submenu-item mod-uppercase mod-no-sm">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Посмотреть все</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <span class="main-nav__styles mod-no-sm">
+                        <h3 class="main-nav__styles-title"><span>Выбери свой стиль</span></h3>
+                        <ul class="main-nav__styles-list" title="Выбери свой стиль">
+                          <li class="main-nav__styles-item">
+                            <a href="">
+                              <img width="164" height="149" src="assets/img/main-menu/authentic-1.png" alt="authentic">
+                            </a>
+                          </li>
+                          <li class="main-nav__styles-item">
+                            <a href="">
+                              <img width="164" height="149" src="assets/img/main-menu/era.png" alt="era">
+                            </a>
+                          </li>
+                          <li class="main-nav__styles-item">
+                            <a href="">
+                              <img width="164" height="149" src="assets/img/main-menu/olskool.png" alt="old school">
+                            </a>
+                          </li>
+                          <li class="main-nav__styles-item">
+                            <a href="">
+                              <img width="164" height="149" src="assets/img/main-menu/sk8hi.png" alt="sk8 hi">
+                            </a>
+                          </li>
+                          <li class="main-nav__styles-item">
+                            <a href="">
+                              <img width="164" height="149" src="assets/img/main-menu/slipon.png" alt="slip-on">
+                            </a>
+                          </li>
+                        </ul>
+                      </span>
+                    </span>
+                  </span>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__head-link js-nav-item-link " href="#">ERA <span class="main-nav__icon-slash">/</span></a>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__head-link js-nav-item-link " href="#">Рюкзаки <span class="main-nav__icon-slash">/</span></a>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__head-link js-nav-item-link mod-sublist" href="#">Comfycush<sup>tm</sup> <span class="main-nav__icon-slash">/</span></a>
+                  <span class="main-nav__dropdown js-nav-item-submenu">
+                    <span class="main-nav__dropdown-wrapper">
+                      <ul class="main-nav__submenu-list js-nav-item-sublist">
+                        <li class="main-nav__submenu-item mod-only-sm mod-back js-back">Назад</li>
+                        <li class="main-nav__submenu-item mod-only-sm mod-label">Comfycush<sup>tm</sup></li>
+                        <li class="main-nav__submenu-item mod-only-sm"><a href="#">Смотреть всё</a></li>
+                        <li class="main-nav__submenu-item">
+                          <a class="main-nav__submenu-link js-nav-sublist-link mod-sublist" href="#">В тренде</a>
+                          <ul class="main-nav__submenu-list mod-2 js-sublist-submenu">
+                            <li class="main-nav__submenu-item mod-back mod-only-sm js-back">Назад</li>
+                            <li class="main-nav__submenu-item mod-only-sm mod-label">В тренде</li>
+                            <li class="main-nav__submenu-item mod-uppercase mod-no-sm">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Красные</a>
+                            </li>
+                            <li class="main-nav__submenu-item mod-uppercase mod-no-sm">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Синие</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="main-nav__submenu-item">
+                          <a class="main-nav__submenu-link js-nav-sublist-link mod-sublist" href="#">Обувь</a>
+                          <ul class="main-nav__submenu-list mod-2 js-sublist-submenu">
+                            <li class="main-nav__submenu-item mod-back mod-only-sm js-back">Назад</li>
+                            <li class="main-nav__submenu-item mod-only-sm mod-label">Обувь</li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Обувь</a>
+                            </li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Обувь</a>
+                            </li>
+                            <li class="main-nav__submenu-item mod-uppercase mod-no-sm">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Посмотреть все</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="main-nav__submenu-item">
+                          <a class="main-nav__submenu-link js-nav-sublist-link mod-sublist" href="#">Одежда</a>
+                          <ul class="main-nav__submenu-list mod-2 js-sublist-submenu">
+                            <li class="main-nav__submenu-item mod-back mod-only-sm js-back">Назад</li>
+                            <li class="main-nav__submenu-item mod-only-sm mod-label">Одежда</li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Обувь</a>
+                            </li>
+                            <li class="main-nav__submenu-item mod-uppercase mod-no-sm">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Посмотреть все</a>
+                            </li>
+                          </ul>
+                        </li>
+                        <li class="main-nav__submenu-item">
+                          <a class="main-nav__submenu-link js-nav-sublist-link mod-sublist" href="#">Аксессуары</a>
+                          <ul class="main-nav__submenu-list mod-2 js-sublist-submenu">
+                            <li class="main-nav__submenu-item mod-back mod-only-sm js-back">Назад</li>
+                            <li class="main-nav__submenu-item mod-only-sm mod-label">Аксессуары</li>
+                            <li class="main-nav__submenu-item ">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Обувь</a>
+                            </li>
+                            <li class="main-nav__submenu-item mod-uppercase mod-no-sm">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="#">Посмотреть все</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <span class="main-nav__styles mod-no-sm">
+                        <h3 class="main-nav__styles-title"><span>Выбери свой стиль</span></h3>
+                        <ul class="main-nav__styles-list" title="Выбери свой стиль">
+                          <li class="main-nav__styles-item">
+                            <a href="">
+                              <img width="164" height="149" src="assets/img/main-menu/authentic-1.png" alt="authentic">
+                            </a>
+                          </li>
+                          <li class="main-nav__styles-item">
+                            <a href="">
+                              <img width="164" height="149" src="assets/img/main-menu/era.png" alt="era">
+                            </a>
+                          </li>
+                          <li class="main-nav__styles-item">
+                            <a href="">
+                              <img width="164" height="149" src="assets/img/main-menu/olskool.png" alt="old school">
+                            </a>
+                          </li>
+                          <li class="main-nav__styles-item">
+                            <a href="">
+                              <img width="164" height="149" src="assets/img/main-menu/sk8hi.png" alt="sk8 hi">
+                            </a>
+                          </li>
+                          <li class="main-nav__styles-item">
+                            <a href="">
+                              <img width="164" height="149" src="assets/img/main-menu/slipon.png" alt="slip-on">
+                            </a>
+                          </li>
+                        </ul>
+                      </span>
+                    </span>
+                  </span>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__head-link js-nav-item-link " href="#">Vans Bowie <span class="main-nav__icon-slash">/</span></a>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__head-link js-nav-item-link " href="#">Color Theory <span class="main-nav__icon-slash">/</span></a>
+                </li>
+                <li class="main-nav__item">
+                  <a class="main-nav__head-link js-nav-item-link " href="#">Весна <span class="main-nav__icon-slash">/</span></a>
+                </li>
+                <li class="main-nav__item mod-only-sm">
+                  <a class="main-nav__head-link js-nav-item-link mod-user-link" href="#">
+                    <span class="main-nav__head-link-icon">
+                      <span class="icon-flag"><span class="path1"></span><span class="path2"></span><span class="path3"></span></span>
+                    </span>
+                    &nbsp;
+                  </a>
+                </li>
+                <li class="main-nav__item mod-only-sm">
+                  <a class="main-nav__head-link js-nav-item-link mod-user-link" href="#">
+                    <span class="main-nav__head-link-icon">
+                      <span class="icon-people"></span>
+                    </span>
+                    Вход / Регистрация
+                  </a>
+                </li>
+                <li class="main-nav__item mod-only-sm">
+                  <a class="main-nav__head-link js-nav-item-link mod-user-link" href="#">
+                    <span class="main-nav__head-link-icon">
+                      <span class="icon-question"></span>
+                    </span>
+                    Помощь
+                  </a>
+                </li>
+                <li class="main-nav__item mod-only-sm">
+                  <a class="main-nav__head-link js-nav-item-link mod-user-link" href="#">
+                    <span class="main-nav__head-link-icon">
+                      <span class="icon-map-pin"></span>
+                    </span>
+                    Где купить
+                  </a>
+                </li>
+                <li class="main-nav__item mod-only-sm">
+                  <div id="menu-subscribe" class="menu__subscribe menu-subscribe js-vue-menu-subscribe">
+                    <div class="menu-subscribe__body" v-if="state.isFormShow">
+                      <div class="menu-subscribe__text js-text-ok hide" v-if="state.isOk">
+                        <div class="menu-subscribe__title">
+                          Спасибо за подписку!
+                        </div>
+                        <div class="menu-subscribe__subtitle">
+                          Мы отправили тебе письмо — проверь свою почту.
+                        </div>
+                      </div>
+                      <div class="menu-subscribe__text js-text show" v-if="!state.isOk">
+                        <div class="menu-subscribe__title">
+                          ПОЛУЧИ <span class="mod-red">СКИДКУ 10%</span><br> НА ПЕРВУЮ ПОКУПКУ
+                        </div>
+                        <div class="menu-subscribe__subtitle">
+                          Просто подпишись на нашу рассылку
+                        </div>
+                      </div>
+                      <form id="menu-subscribe-form" class="menu-subscribe__form" name="subscribeForm" method="POST" action="/webapp/wcs/stores/servlet/VFCAjaxNewsletterSubscriptionAdd" data-abide="true" novalidate="" v-if="!state.isProcessing">
+                        <div class="menu-subscribe__fields-container">
+                          <div v-for="(item, index) in inputs" :key="index">
+                            <div class="field">
+                              <label :for="item.id" class="menu-subscribe__input-label" :id="item.label">${item.labelText}</label>
+                              <input :id="item.id" :name="item.name" :placeholder="item.placeholder" :type="item.type" :style="item.inputStyle" v-model.lazy="item.value" @blur="checkValue(index)" @click="labelVisible(index)">
+                            </div>
+                          </div>
+                        </div>
+                        <input class="hidden" id="Gender__c" value="" name="Gender__c" type="hidden" />
+                        <div class="menu-subscribe__buttons">
+                          <input id="menButton" @click="setMan" type="button" value="Мужчина" class="submit_button" />
+                          <input id="womenButton" @click="setWoman" type="button" class="submit_button" value="Женщина" />
+                        </div>
+                        <label class="menu-subscribe__legal js-legal">
+                          <span>
+                            <input type="checkbox" @click="legalCheck" checked />
+                          </span>
+                          <span class="menu-subscribe__privacy">Соглашаюсь с
+                            <a href="/company/privacy-policy/"><span>Политикой конфиденциальности</span></a>
+                          </span>
+                        </label>
+                      </form>
+                    </div>
+                  </div>
+                </li>
+                <li class="main-nav__item mod-no-sm mod-more js-more-item" style="display: none">
+                  <a class="main-nav__head-link js-nav-item-link mod-sublist" href="#">
+                    Больше
+                  </a>
+                  <span class="main-nav__dropdown js-nav-item-submenu">
+                    <span class="main-nav__dropdown-wrapper">
+                      <ul class="main-nav__submenu-list js-nav-item-sublist">
+                        <li class="main-nav__submenu-item">
+                          <a class="main-nav__submenu-link js-nav-sublist-link mod-sublist" href="">root</a>
+                          <ul class="main-nav__submenu-list mod-2 js-sublist-submenu">
+                            <li class="main-nav__submenu-item">
+                              <a class="main-nav__submenu-link js-nav-sublist-link" href="">subitem</a>
+                            </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <span class="main-nav__styles mod-no-sm">
+                        <h3 class="main-nav__styles-title"><span>Выбери свой стиль</span></h3>
+                        <ul class="main-nav__styles-list" title="Выбери свой стиль">
+                          <li class="main-nav__styles-item">
+                            <a href="">
+                              <img width="164" height="149" src="assets/img/main-menu/authentic-1.png" alt="authentic">
+                            </a>
+                          </li>
+                          <li class="main-nav__styles-item">
+                            <a href="">
+                              <img width="164" height="149" src="assets/img/main-menu/era.png" alt="era">
+                            </a>
+                          </li>
+                          <li class="main-nav__styles-item">
+                            <a href="">
+                              <img width="164" height="149" src="assets/img/main-menu/olskool.png" alt="old school">
+                            </a>
+                          </li>
+                          <li class="main-nav__styles-item">
+                            <a href="">
+                              <img width="164" height="149" src="assets/img/main-menu/sk8hi.png" alt="sk8 hi">
+                            </a>
+                          </li>
+                          <li class="main-nav__styles-item">
+                            <a href="">
+                              <img width="164" height="149" src="assets/img/main-menu/slipon.png" alt="slip-on">
+                            </a>
+                          </li>
+                        </ul>
+                      </span>
+                    </span>
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <div class="header-basket mod-only-sm"></div>
+            <div class="header-nav__search header-search is-hide js-header-search">
+              <form class="header-search__form" action="#">
+                <input class="header-search__input" type="text" name="header-search" id="" placeholder="Например, кеды">
+                <button class="header-search__submit button mod-3" type="submit">
+                  <span class="mod-only-sm">Найти</span>
+                  <span class="icon-search mod-no-sm"></span></button>
+              </form>
+
+            </div>
+
+          </div>
+        </nav>
+      </div>
+    </div>
+    <div class="header__features">
+      <div class="container widget-features">
+        <ul class="widget-features__list">
+          <li class="widget-features__item"><a href="#"><span>Наш телефон&nbsp;</span><span>8-800-775-1966</span></a></li>
+          <li class="widget-features__item"><a href="#"><span>Доставка бесплатно&nbsp;</span><span>от 3 000 руб.</span></a></li>
+          <li class="widget-features__item"><a href="#"><span>Подпишись&nbsp;</span><span>и получи скидку 10%</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="index-page">
+      <div class="index-page__main-promo">
+        <section class="main-promo">
+          <div class="container">
+            <a class="main-promo__banner" href="#">
+              <picture class="main-promo__picture">
+                <source media="(max-width: 768px)" srcset="assets/img/main-promo/color-theory--mobile.jpg, assets/img/main-promo/color-theory--mobile@x2.jpg 2x">
+                <source media="(min-width: 1024px)" srcset="assets/img/main-promo/color-theory.jpg, assets/img/main-promo/color-theory@x2.jpg 2x">
+                <img src="assets/img/main-promo/color-theory--tablet.jpg" srcset="assets/img/main-promo/color-theory--tablet.jpg, assets/img/main-promo/color-theory--tablet@x2.jpg 2x" alt="Цветная теория - самовыражайся">
+              </picture>
+            </a>
+          </div>
+        </section>
+      </div>
+
+      <div class="index-page__promo-menu mod-only-sm">
+
+        <div class="promo-menu">
+          <ul class="promo-menu__list js-accordion">
+            <li class="promo-menu__item">
+              <a class="promo-menu__title mod-title-h4 js-accordion-title mod-drop" href="#"><span>Мужчины</span></a>
+              <ul class="promo-menu__submenu-list js-accordion-drop">
+                <li class="promo-menu__submenu-item">
+                  <a class="promo-menu__submenu-link" href="#">В тренде</a>
+                </li>
+                <li class="promo-menu__submenu-item">
+                  <a class="promo-menu__submenu-link" href="#">Обувь</a>
+                </li>
+                <li class="promo-menu__submenu-item">
+                  <a class="promo-menu__submenu-link" href="#">Одежда</a>
+                </li>
+                <li class="promo-menu__submenu-item">
+                  <a class="promo-menu__submenu-link" href="#">Аксессуары</a>
+                </li>
+              </ul>
+            </li>
+            <li class="promo-menu__item">
+              <a class="promo-menu__title mod-title-h4 js-accordion-title mod-drop" href="#women"><span>Женщины</span></a>
+              <ul class="promo-menu__submenu-list js-accordion-drop">
+                <li class="promo-menu__submenu-item">
+                  <a class="promo-menu__submenu-link" href="#">В тренде</a>
+                </li>
+                <li class="promo-menu__submenu-item">
+                  <a class="promo-menu__submenu-link" href="#">Обувь</a>
+                </li>
+                <li class="promo-menu__submenu-item">
+                  <a class="promo-menu__submenu-link" href="#">Одежда</a>
+                </li>
+                <li class="promo-menu__submenu-item">
+                  <a class="promo-menu__submenu-link" href="#">Аксессуары</a>
+                </li>
+                <li class="promo-menu__submenu-item">
+                  <a class="promo-menu__submenu-link" href="#">Era</a>
+                </li>
+                <li class="promo-menu__submenu-item">
+                  <a class="promo-menu__submenu-link" href="#">Comfycush</a>
+                </li>
+                <li class="promo-menu__submenu-item">
+                  <a class="promo-menu__submenu-link" href="#">Весна</a>
+                </li>
+              </ul>
+            </li>
+            <li class="promo-menu__item">
+              <a class="promo-menu__title mod-title-h4 js-accordion-title " href="#"><span>Era</span></a>
+            </li>
+            <li class="promo-menu__item">
+              <a class="promo-menu__title mod-title-h4 js-accordion-title " href="#"><span>COMFYCUSH™</span></a>
+            </li>
+            <li class="promo-menu__item">
+              <a class="promo-menu__title mod-title-h4 js-accordion-title " href="#"><span>VANS BOWIE</span></a>
+            </li>
+            <li class="promo-menu__item">
+              <a class="promo-menu__title mod-title-h4 js-accordion-title " href="#"><span>COLOR THEORY</span></a>
+            </li>
+            <li class="promo-menu__item">
+              <a class="promo-menu__title mod-title-h4 js-accordion-title " href="#"><span>Весна</span></a>
+            </li>
+            <li class="promo-menu__item">
+              <a class="promo-menu__title mod-title-h4 js-accordion-title " href="#"><span>#OFFTHEWALL</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="index-page__whats-style mod-only-sm container container-sm-10">
+        <div class="whats-your-style">
+          <div class="whats-your-style__wrapper">
+            <ul class="whats-your-style__list" title="Выбери свой стиль">
+              <li class="whats-your-style__item">
+                <a href="">
+                  <img width="140" height="92" src="assets/img/vans-silhouettes-1.jpg" alt="Каков свой стиль?">
+                </a>
+              </li>
+              <li class="whats-your-style__item">
+                <a href="">
+                  <img width="140" height="92" src="assets/img/vans-silhouettes-2.jpg" alt="authentic">
+                </a>
+              </li>
+              <li class="whats-your-style__item">
+                <a href="">
+                  <img width="140" height="92" src="assets/img/vans-silhouettes-3.jpg" alt="era">
+                </a>
+              </li>
+              <li class="whats-your-style__item">
+                <a href="">
+                  <img width="140" height="92" src="assets/img/vans-silhouettes-4.jpg" alt="slip-on">
+                </a>
+              </li>
+              <li class="whats-your-style__item">
+                <a href="">
+                  <img width="140" height="92" src="assets/img/vans-silhouettes-5.jpg" alt="old school">
+                </a>
+              </li>
+              <li class="whats-your-style__item">
+                <a href="">
+                  <img width="140" height="92" src="assets/img/vans-silhouettes-6.jpg" alt="sk8 hi">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="index-page__promo-categories container container-md-10">
+
+        <section class="promo-categories">
+          <ul class="promo-categories__list">
+            <li class="promo-categories__item">
+              <a class="promo-categories__link" href="#">
+                <div class="promo-categories__picture">
+                  <picture>
+                    <img src="assets/img/promo-categories/category-1.jpg" srcset="assets/img/promo-categories/category-1.jpg, assets/img/promo-categories/category-1@2x.jpg 2x" alt="Comfycush">
+                  </picture>
+                </div>
+                <h3 class="promo-categories__title mod-title-h4">COMFYCUSH</h3>
+                <p class="promo-categories__text">Мягкая и&nbsp;комфортная подошва.</p>
+                <span tabindex="0" class="promo-categories__button button mod-1">Купить сейчас</span>
+              </a>
+            </li>
+            <li class="promo-categories__item">
+              <a class="promo-categories__link" href="#">
+                <div class="promo-categories__picture">
+                  <picture>
+                    <img src="assets/img/promo-categories/category-2.jpg" srcset="assets/img/promo-categories/category-2.jpg, assets/img/promo-categories/category-2@2x.jpg 2x" alt="I LOVE MY VANS">
+                  </picture>
+                </div>
+                <h3 class="promo-categories__title mod-title-h4">I LOVE MY VANS</h3>
+                <p class="promo-categories__text">Носи с любовью.</p>
+                <span tabindex="0" class="promo-categories__button button mod-1">Купить сейчас</span>
+              </a>
+            </li>
+            <li class="promo-categories__item">
+              <a class="promo-categories__link" href="#">
+                <div class="promo-categories__picture">
+                  <picture>
+                    <img src="assets/img/promo-categories/category-3.jpg" srcset="assets/img/promo-categories/category-3.jpg, assets/img/promo-categories/category-3@2x.jpg 2x" alt="SPRING UPDATE">
+                  </picture>
+                </div>
+                <h3 class="promo-categories__title mod-title-h4">SPRING UPDATE</h3>
+                <p class="promo-categories__text">Весеннее обновление.</p>
+                <span tabindex="0" class="promo-categories__button button mod-1">Купить сейчас</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+      </div>
+
+      <div class="index-page__categories mod-no-sm">
+        <section class="categories">
+          <div class="container">
+            <h2 class="categories__title mod-title-h2">Категории</h2>
+            <div class="categories__inner">
+              <div class="categories__category mod-men">
+                <div class="categories__cat-container">
+                  <h3 class="categories__subtitle">Мужчины</h3>
+                  <ul class="categories__links-list">
+                    <li class="categories__link"><a class="link-2" href="#">Обувь</a></li>
+                    <li class="categories__link"><a class="link-2" href="#">Одежда</a></li>
+                    <li class="categories__link"><a class="link-2" href="#">Аксессуары</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="categories__category mod-women">
+                <div class="categories__cat-container">
+                  <h3 class="categories__subtitle">Женщины</h3>
+                  <ul class="categories__links-list">
+                    <li class="categories__link"><a class="link-2" href="#">Обувь</a></li>
+                    <li class="categories__link"><a class="link-2" href="#">Одежда</a></li>
+                    <li class="categories__link"><a class="link-2" href="#">Аксессуары</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="index-page__bestsellers container container-sm-10 container-md-10">
+        <section class="bestsellers">
+
+
+          <div class="wide-white ">
+            <div class="container mod-wide">
+              <div class="row news-row">
+                <div class="wide-rr mod-retailrocket-main">
+                  <div class="retailrocket retailrocket-widget retailrocket-theme-vans" data-retailrocket-buybutton="false">
+                    <header class="retailrocket-widgettitle"> посмотри на наши бестселлеры</header>
+                    <ul class="retailrocket-items">
+                      <li class="retailrocket-item">
+                        <div style="width:140px;">
+                          <a class="retailrocket-item-info" href="item.html">
+                            <div class="retailrocket-item-image">
+                              <img src="assets/img/bestsellers/bestseller-1.jpg" style="width:140px;height:140px">
+                            </div>
+                            <div class="retailrocket-item-brand"></div>
+                            <div class="retailrocket-item-title"> Кеды Tnt Advanced Prototype</div>
+                            <div class="retailrocket-item-description"></div>
+                          </a>
+                          <div class="retailrocket-item-price-wrapper">
+                            <div class="retailrocket-item-price retailrocket-item-price--old">
+                              <span class="retailrocket-item-price-value">8345 ₽</span>
+                              <span class="retailrocket-item-price-currency"></span>
+                            </div>
+                            <div class="retailrocket-item-price retailrocket-item-price--new">
+                              <span class="retailrocket-item-price-value">6395 ₽</span>
+                              <span class="retailrocket-item-price-currency"></span>
+                            </div>
+                          </div>
+                          <nav class="retailrocket-actions">
+                            <a class="retailrocket-actions-more" href="item.html"></a>
+                            <a class="retailrocket-actions-buy" href="item.html"></a>
+                          </nav>
+                        </div>
+                      </li>
+
+                      <li class="retailrocket-item">
+                        <div style="width:140px;">
+                          <a class="retailrocket-item-info" href="item.html">
+                            <div class="retailrocket-item-image">
+                              <img src="assets/img/bestsellers/bestseller-2.jpg" style="width:140px;height:140px">
+                            </div>
+                            <div class="retailrocket-item-brand"></div>
+                            <div class="retailrocket-item-title"> Кеды Old Skool</div>
+                            <div class="retailrocket-item-description"></div>
+                          </a>
+                          <div class="retailrocket-item-price-wrapper">
+                            <div class="retailrocket-item-price">
+                              <span class="retailrocket-item-price-value">5790 ₽</span>
+                              <span class="retailrocket-item-price-currency"></span>
+                            </div>
+                          </div>
+                          <nav class="retailrocket-actions">
+                            <a class="retailrocket-actions-more" href="item.html"></a>
+                            <a class="retailrocket-actions-buy" href="item.html"></a>
+                          </nav>
+                        </div>
+                      </li>
+
+                      <li class="retailrocket-item">
+                        <div style="width:140px;">
+                          <a class="retailrocket-item-info" href="item.html">
+                            <div class="retailrocket-item-image">
+                              <img src="assets/img/bestsellers/bestseller-3.jpg" style="width:140px;height:140px">
+                            </div>
+                            <div class="retailrocket-item-brand"></div>
+                            <div class="retailrocket-item-title"> Кеды Old Skool</div>
+                            <div class="retailrocket-item-description"></div>
+                          </a>
+                          <div class="retailrocket-item-price-wrapper">
+                            <div class="retailrocket-item-price">
+                              <span class="retailrocket-item-price-value">8490 ₽</span>
+                              <span class="retailrocket-item-price-currency"></span>
+                            </div>
+                          </div>
+                          <nav class="retailrocket-actions">
+                            <a class="retailrocket-actions-more" href="item.html"></a>
+                            <a class="retailrocket-actions-buy" href="item.html"></a>
+                          </nav>
+                        </div>
+                      </li>
+
+                      <li class="retailrocket-item">
+                        <div style="width:140px;">
+                          <a class="retailrocket-item-info" href="item.html">
+                            <div class="retailrocket-item-image">
+                              <img src="assets/img/bestsellers/bestseller-4.jpg" style="width:140px;height:140px">
+                            </div>
+                            <div class="retailrocket-item-brand"></div>
+                            <div class="retailrocket-item-title"> Кеды Authentic Lite</div>
+                            <div class="retailrocket-item-description"></div>
+                          </a>
+                          <div class="retailrocket-item-price-wrapper">
+                            <div class="retailrocket-item-price retailrocket-item-price--old">
+                              <span class="retailrocket-item-price-value">4765 ₽</span>
+                              <span class="retailrocket-item-price-currency"></span>
+                            </div>
+                            <div class="retailrocket-item-price retailrocket-item-price--new">
+                              <span class="retailrocket-item-price-value">2895 ₽</span>
+                              <span class="retailrocket-item-price-currency"></span>
+                            </div>
+                          </div>
+                          <nav class="retailrocket-actions">
+                            <a class="retailrocket-actions-more" href="item.html"></a>
+                            <a class="retailrocket-actions-buy" href="item.html"></a>
+                          </nav>
+                        </div>
+                      </li>
+
+                      <li class="retailrocket-item">
+                        <div style="width:140px;">
+                          <a class="retailrocket-item-info" href="item.html">
+                            <div class="retailrocket-item-image">
+                              <img src="assets/img/bestsellers/bestseller-5.jpg" style="width:140px;height:140px">
+                            </div>
+                            <div class="retailrocket-item-brand"></div>
+                            <div class="retailrocket-item-title"> Высокие кеды Sk8-Hi Lite</div>
+                            <div class="retailrocket-item-description"></div>
+                          </a>
+                          <div class="retailrocket-item-price-wrapper">
+                            <div class="retailrocket-item-price">
+                              <span class="retailrocket-item-price-value">3695 ₽</span>
+                              <span class="retailrocket-item-price-currency"></span>
+                            </div>
+                          </div>
+                          <nav class="retailrocket-actions">
+                            <a class="retailrocket-actions-more" href="item.html"></a>
+                            <a class="retailrocket-actions-buy" href="item.html"></a>
+                          </nav>
+                        </div>
+                      </li>
+
+                      <li class="retailrocket-item">
+                        <div style="width:140px;">
+                          <a class="retailrocket-item-info" href="item.html">
+                            <div class="retailrocket-item-image">
+                              <img src="assets/img/bestsellers/bestseller-3.jpg" style="width:140px;height:140px">
+                            </div>
+                            <div class="retailrocket-item-brand"></div>
+                            <div class="retailrocket-item-title"> Носки Classic Crew</div>
+                            <div class="retailrocket-item-description"></div>
+                          </a>
+                          <div class="retailrocket-item-price-wrapper">
+                            <div class="retailrocket-item-price retailrocket-item-price--old">
+                              <span class="retailrocket-item-price-value">1290 ₽</span>
+                              <span class="retailrocket-item-price-currency"></span>
+                            </div>
+                            <div class="retailrocket-item-price retailrocket-item-price--new">
+                              <span class="retailrocket-item-price-value">903 ₽</span>
+                              <span class="retailrocket-item-price-currency"></span>
+                            </div>
+                          </div>
+                          <nav class="retailrocket-actions">
+                            <a class="retailrocket-actions-more" href="item.html"></a>
+                            <a class="retailrocket-actions-buy" href="item.html"></a>
+                          </nav>
+                        </div>
+                      </li>
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="index-page__news container container-sm-10 container-md-10">
+
+        <section class="news">
+          <h2 class="news__title mod-title-h2">Новости</h2>
+          <ul class="news__list">
+            <li class="news__item">
+              <a class="news__item-link" href="#">
+                <div class="news__image">
+                  <picture>
+                    <img src="assets/img/news/news-1.jpg" srcset="assets/img/news/news-1.jpg, assets/img/news/news-1@2x.jpg 2x" alt="item.name">
+                  </picture>
+                </div>
+                <p class="news__name mod-title-h5">Vans x Harry Potter: первые подробности</p>
+                <span tabindex="0" class="news__link link-1">Читать дальше</span>
+              </a>
+            </li>
+            <li class="news__item">
+              <a class="news__item-link" href="#">
+                <div class="news__image">
+                  <picture>
+                    <img src="assets/img/news/news-2.jpg" srcset="assets/img/news/news-2.jpg, assets/img/news/news-2@2x.jpg 2x" alt="item.name">
+                  </picture>
+                </div>
+                <p class="news__name mod-title-h5">Waffleheads</p>
+                <span tabindex="0" class="news__link link-1">Читать дальше</span>
+              </a>
+            </li>
+            <li class="news__item">
+              <a class="news__item-link" href="#">
+                <div class="news__image">
+                  <picture>
+                    <img src="assets/img/news/news-3.jpg" srcset="assets/img/news/news-3.jpg, assets/img/news/news-3@2x.jpg 2x" alt="item.name">
+                  </picture>
+                </div>
+                <p class="news__name mod-title-h5">Vault by Vans x Balph Steadman</p>
+                <span tabindex="0" class="news__link link-1">Читать дальше</span>
+              </a>
+            </li>
+            <li class="news__item">
+              <a class="news__item-link" href="#">
+                <div class="news__image">
+                  <picture>
+                    <img src="assets/img/news/news-4.jpg" srcset="assets/img/news/news-4.jpg, assets/img/news/news-4@2x.jpg 2x" alt="item.name">
+                  </picture>
+                </div>
+                <p class="news__name mod-title-h5">Vans x David Bowie</p>
+                <span tabindex="0" class="news__link link-1">Читать дальше</span>
+              </a>
+            </li>
+            <li class="news__item">
+              <a class="news__item-link" href="#">
+                <div class="news__image">
+                  <picture>
+                    <img src="assets/img/news/news-3.jpg" srcset="assets/img/news/news-3.jpg, assets/img/news/news-3@2x.jpg 2x" alt="item.name">
+                  </picture>
+                </div>
+                <p class="news__name mod-title-h5">Vault by Vans x Balph Steadman</p>
+                <span tabindex="0" class="news__link link-1">Читать дальше</span>
+              </a>
+            </li>
+          </ul>
+          <button type="button" class="button news__button-more button mod-2"><span>Смотреть больше</span></button>
+        </section>
+      </div>
+    </div>
+
+  </main>
+
+
+  <footer class="footer">
+    <div class="footer__wrapper container container-sm-10 container-md-10">
+      <div class="footer__nav">
+        <div class="footer__categories js-accordion">
+          <div class="footer__category">
+            <h3 class="footer__nav-title js-accordion-title">Каталог</h3>
+            <ul class="footer__nav-list js-accordion-drop">
+              <li class="footer__nav-sublist">
+                <p class="footer__nav-subtitle">По категории</p>
+                <ul class="footer__nav-links">
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Мужчины</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Женщины</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Новинки</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Era</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Comfycush</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Vans Bowie</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Color theory</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Весна</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">#OFFTHEWALL</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer__nav-sublist">
+                <p class="footer__nav-subtitle">По типу</p>
+                <ul class="footer__nav-links">
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Кеды</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Одежда</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Рюкзаки</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Классика</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="footer__nav-sublist">
+                <p class="footer__nav-subtitle">По стилю</p>
+                <ul class="footer__nav-links">
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Slip-on</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Authentic</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Old skool</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Era</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__category">
+            <h3 class="footer__nav-title js-accordion-title">Брэнд</h3>
+            <ul class="footer__nav-list js-accordion-drop">
+              <li class="footer__nav-sublist">
+                <p class="footer__nav-subtitle">О компании</p>
+                <ul class="footer__nav-links">
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">#SINCE66</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Политика конфиденциальности</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Условия обслуживания</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Карьера</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__category">
+            <h3 class="footer__nav-title js-accordion-title">Помощь</h3>
+            <ul class="footer__nav-list js-accordion-drop">
+              <li class="footer__nav-sublist">
+                <p class="footer__nav-subtitle">Покупателями</p>
+                <ul class="footer__nav-links">
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Таблица размеров</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Оплата</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Отследить заказ</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Условия доставки</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Условия возврата</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">FAQ</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Контакты</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__category">
+            <h3 class="footer__nav-title js-accordion-title">Франшиза</h3>
+            <ul class="footer__nav-list js-accordion-drop">
+              <li class="footer__nav-sublist">
+                <p class="footer__nav-subtitle">Партнерам</p>
+                <ul class="footer__nav-links">
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Франчайзинг</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Открытие магазинов</a>
+                  </li>
+                  <li class="footer__nav-link">
+                    <a class="link-1_2" href="#">Анкета партнера</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer__center">
+        <a class="footer__shops">
+          <h3><span>Найти </span>магазин <span class="map-pin icon-map-pin"></span></h3>
+        </a>
+        <div class="footer__contacts">
+          <div class="widget-contacts">
+            <h3 class="widget-contacts__title">Контакты</h3>
+            <ul class="widget-contacts__list">
+              <li class="widget-contacts__item mod-fb">
+                <a href="#">
+                  <span class="widget-contacts__icon">
+                    <span class="icon-fb"></span>
+                  </span>Facebook</a>
+              </li>
+              <li class="widget-contacts__item mod-insta">
+                <a href="#">
+                  <span class="widget-contacts__icon">
+                    <span class="icon-instagram"></span>
+                  </span>Instagram</a>
+              </li>
+              <li class="widget-contacts__item mod-vk">
+                <a href="#">
+                  <span class="widget-contacts__icon">
+                    <span class="icon-vk"></span>
+                  </span>Вконтакте</a>
+              </li>
+              <li class="widget-contacts__item mod-yt">
+                <a href="#">
+                  <span class="widget-contacts__icon">
+                    <span class="icon-yt"></span>
+                  </span>YouTube</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__subscribe">
+          <div class="widget-subscribe">
+            <h3 class="widget-subscribe__title"><span>Подписка </span>на&nbsp;рассылку</h3>
+            <p class="widget-subscribe__text">Узнайте первыми о наших акциях и новинках</p>
+            <form class="widget-subscribe__form">
+              <div class="widget-subscribe__field">
+                <input class="widget-subscribe__input" type="email" placeholder="E-mail">
+                <button class="widget-subscribe__submit" type="submit" title="Подписаться">
+                  <span class="icon-arrow-right"></span>
+                </button>
+              </div>
+              <div class="widget-subscribe__policy custom-checkbox">
+                <label class="custom-checkbox__label" for="subscribe-policy">
+                  <input class="custom-checkbox__input mod-visually-hidden" type="checkbox" id="subscribe-policy" name="policy">
+                  <span class="custom-checkbox__check icon-check"></span>
+                  <span>Согласен&nbsp;с <a class="link-3" href="#">Политикой конфедициальности</a>.</span></label>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2019 VANS — All rights reserved</p>
+        <div class="footer__payments">
+          <p class="footer__payments-title">Безопасные покупки с </p>
+          <ul class="footer__payments-list">
+            <li class="footer__payments-item">
+              <a href="#" title="Visa">
+                <img src="assets/fonts/icons/icon-visa-logo.svg" alt="Visa">
+              </a>
+            </li>
+            <li class="footer__payments-item">
+              <a href="#" title="Mastercard">
+                <img src="assets/fonts/icons/icon-mastercard.svg" alt="Mastercard">
+              </a>
+            </li>
+            <li class="footer__payments-item">
+              <a href="#" title="Maestro">
+                <img src="assets/fonts/icons/icon-maestro.svg" alt="Maestro">
+              </a>
+            </li>
+            <li class="footer__payments-item">
+              <a href="#" title="American Express">
+                <img src="assets/fonts/icons/icon-american-express.svg" alt="American Express">
+              </a>
+            </li>
+            <li class="footer__payments-item">
+              <a href="#" title="Visa Electron">
+                <img src="assets/fonts/icons/icon-visa-el.svg" alt="Visa Electron">
+              </a>
+            </li>
+            <li class="footer__payments-item">
+              <a href="#" title="МИР">
+                <img src="assets/fonts/icons/icon-mir.svg" alt="МИР">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <button class="footer__up-button mod-only-sm js-button-up" type="button">Наверх</button>
+    </div>
+  </footer>
+
+  <noindex>
+    <div id="newsletter" class="newsletter-modal modal fade in hidden-xs hidden-sm js-vue-newsletter-popup">
+      <div class="newsletter-modal__dialog modal-dialog">
+        <div class="newsletter-modal__content modal-content">
+          <div class="newsletter-modal__close"><span class="ico16 __close close" data-dismiss="modal" aria-hidden="true"></span></div>
+          <div class="newsletter-modal__body modal-body">
+            <div class="newsletter-white-ok-ng hide">
+              <div class="newsletter-header">
+                СПасибо за подписку!
+              </div>
+              <div class="newsletter-subheader">
+                Мы отправили тебе письмо — проверь свою почту.
+              </div>
+            </div>
+            <div class="newsletter-white show">
+              <div class="newsletter-header">
+                ПОЛУЧИ <span class="mod-red">СКИДКУ 10%</span><br> НА ПЕРВУЮ ПОКУПКУ
+              </div>
+              <div class="newsletter-subheader">
+                Просто подпишись на нашу рассылку
+              </div>
+            </div>
+            <div id="newsletter-form" class="newsletter-form newsletter__form content">
+              <div class="newsletter-form__spinner spinner js-loader" style="display: none">
+                <div class="double-bounce1"></div>
+                <div class="double-bounce2"></div>
+              </div>
+              <form class="newsletter__subsform page-signup signup custom" id="subscribeForm" name="subscribeForm" method="POST" action="/webapp/wcs/stores/servlet/VFCAjaxNewsletterSubscriptionAdd" data-signupform-options="{&quot;successMessage&quot;:&quot;Thank you for signing up.&quot;,&quot;errorMessage&quot;:&quot;There was a problem. Please try again later.&quot;}" data-abide="true" novalidate="">
+                <div id="fields-container" class="newsletter-form__fields-container fields-container">
+                  <div v-for="(item, index) in inputs" :key="index">
+                    <div class="field">
+                      <label :for="item.id" class="input-label" :id="item.label">${item.labelText}</label>
+                      <input :id="item.id" :name="item.name" :placeholder="item.placeholder" :type="item.type" :style="item.inputStyle" :class="{'mod-ok': styles.ok, 'mod-err': styles.err}" v-model.lazy="item.value" @blur="checkValue(index)" @click="labelVisible(index)">
+                    </div>
+                  </div>
+                </div>
+                <!-- HIDDEN FIELDS HERE BELOW-->
+                <!-- SPECIAL FIELDS START-->
+                <input class="hidden" id="Gender__c" value="" name="Gender__c" type="hidden" />
+                <!-- SPECIAL FIELDS END-->
+              </form>
+              <div class="newsletter__buttons">
+                <input :class="buttons.className" id="menButton" @click="setMan" type="button" value="Мужчина" :disabled="buttons.disabled" />
+                <input :class="buttons.className" id="womenButton" @click="setWoman" type="button" :disabled="buttons.disabled" value="Женщина" />
+              </div>
+              <label id="legal-container" class="newsletter-form__legal js-legal fine_print">
+                <input id="legalFlag" type="checkbox" @click="legalCheck" />
+                <span class="newsletter-form__privacy">&nbsp;Соглашаюсь с
+                  <a style="color: #bd1111;" href="/company/privacy-policy/">Политикой конфиденциальности</a>
+                </span>
+              </label>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </noindex>
+
+</body>
+
+</html>
