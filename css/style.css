@@ -1091,7 +1091,6 @@ html.mod-popup-is-open {
   height: 100%; }
 
 body {
-  background-image: url("../assets/img/main-bg.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -1233,129 +1232,6 @@ input::-webkit-clear-button {
   max-width: 1920px;
   margin-left: auto;
   margin-right: auto; }
-
-.anim-lamp {
-  position: absolute;
-  width: 100px;
-  top: -10px;
-  -webkit-transform-origin: -10px 50%;
-          transform-origin: -10px 50%; }
-  .anim-lamp__1 {
-    left: 80px; }
-  .anim-lamp__2 {
-    right: 80px; }
-  .anim-lamp__rope {
-    position: absolute;
-    top: -10px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-    z-index: 11; }
-  .anim-lamp__lantern {
-    position: absolute;
-    top: 135px;
-    left: 50%;
-    -webkit-transform: translateX(-50%);
-            transform: translateX(-50%);
-    z-index: 10; }
-
-@-webkit-keyframes rope-pendulum {
-  0% {
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg); }
-  50% {
-    -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg); }
-  100% {
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg); } }
-
-@keyframes rope-pendulum {
-  0% {
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg); }
-  50% {
-    -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg); }
-  100% {
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg); } }
-
-@-webkit-keyframes rope-pendulum-reverse {
-  0% {
-    -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg); }
-  50% {
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg); }
-  100% {
-    -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg); } }
-
-@keyframes rope-pendulum-reverse {
-  0% {
-    -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg); }
-  50% {
-    -webkit-transform: rotate(5deg);
-            transform: rotate(5deg); }
-  100% {
-    -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg); } }
-
-@-webkit-keyframes lantern-pendulum {
-  0% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
-    -webkit-transform-origin: 0 50%;
-            transform-origin: 0 50%; }
-  25% {
-    -webkit-transform: rotate(6deg);
-            transform: rotate(6deg);
-    -webkit-transform-origin: 10px 50%;
-            transform-origin: 10px 50%; }
-  50% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
-    -webkit-transform-origin: 0 50%;
-            transform-origin: 0 50%; }
-  75% {
-    -webkit-transform: rotate(-6deg);
-            transform: rotate(-6deg);
-    -webkit-transform-origin: 10px 50%;
-            transform-origin: 10px 50%; }
-  100% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
-    -webkit-transform-origin: 0 50%;
-            transform-origin: 0 50%; } }
-
-@keyframes lantern-pendulum {
-  0% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
-    -webkit-transform-origin: 0 50%;
-            transform-origin: 0 50%; }
-  25% {
-    -webkit-transform: rotate(6deg);
-            transform: rotate(6deg);
-    -webkit-transform-origin: 10px 50%;
-            transform-origin: 10px 50%; }
-  50% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
-    -webkit-transform-origin: 0 50%;
-            transform-origin: 0 50%; }
-  75% {
-    -webkit-transform: rotate(-6deg);
-            transform: rotate(-6deg);
-    -webkit-transform-origin: 10px 50%;
-            transform-origin: 10px 50%; }
-  100% {
-    -webkit-transform: rotate(0);
-            transform: rotate(0);
-    -webkit-transform-origin: 0 50%;
-            transform-origin: 0 50%; } }
 
 .b-browser-update {
   position: fixed;
@@ -1669,8 +1545,6 @@ input::-webkit-clear-button {
     display: none !important; }
   .mod-no-sm {
     display: none !important; }
-    .anim-lamp {
-      display: none; }
       .first-screen__wrapper {
         display: block; }
       .first-screen__promo {
